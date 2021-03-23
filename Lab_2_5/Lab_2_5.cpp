@@ -26,4 +26,14 @@ int main()
 	cout << "Angle C = " << C << endl;
 
 	cout << "Size = " << sizeof(T) << endl;
+
+	cout << "++M: " << ++M << endl;
+	cout << "--M: " << --M << endl;
+	cout << "M++: " << M++ << endl;
+	cout << "M--: " << M-- << endl << endl;
+
+	cout << "++T: " << ++T << endl;
+	cout << "--T: " << --T << endl;
+	cout << "T++: " << T++ << endl;
+	cout << "T--: " << T-- << endl << endl;
 }
